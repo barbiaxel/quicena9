@@ -23,10 +23,10 @@ public class Quincena9 {
         
         /** declaración de variables
          */
-        String nombre, apellidos, dni;
+        String nombre, apellidos, dni, genero;
         int anyo; // variable anyo, guardará el valor del año actual que será pedido al usuario.
         int edad; // variable edad 
-        int numeroSeg; // variable del numero de la seguridad social
+        // variable del numero de la seguridad social  int numeroSeg; 
         Persona persona1, persona2, persona3;
         
         /**
@@ -38,6 +38,7 @@ public class Quincena9 {
         // llamada a clase persona y asignación de atributos de la persona2
         nombre = "Lunilda María";
         apellidos = "Pérez Giménez";
+        genero= "femenino";
         dni = "21979552W";
         edad = 41;
         persona2 = new Persona(nombre, apellidos, dni, edad);
